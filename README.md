@@ -29,7 +29,7 @@ This project focuses on improving fraud detection for e-commerce and banking tra
 
 ### **2. Exploratory Data Analysis (EDA)**
 
-**Script**: [`src/eda.py`](src/eda.py) | **Notebook**: [`notebooks/eda_plots.ipynb`](notebooks/eda_plots.ipynb)
+**Script**: [`src/eda.py`](src/eda.py) | **Notebook**: [`notebooks/plots/`](notebooks/plots/)
 
 - **Univariate Analysis**: Class imbalance, transaction value distributions.
 - **Bivariate Analysis**: Fraud vs. time, geolocation, purchase patterns.
@@ -47,7 +47,7 @@ This project focuses on improving fraud detection for e-commerce and banking tra
 
 ### **4. Data Transformation**
 
-**Notebook**: [`notebooks/data_transformation.ipynb`](notebooks/data_transformation.ipynb)
+**Notebook**: [`notebooks/data_transformation.ipynb`](notebooks/data_transformation_1.ipynb)
 
 - **Class Imbalance**: Applied SMOTE (oversampling) on training data.
 - **Scaling**: Standardized numerical features (`StandardScaler`).
