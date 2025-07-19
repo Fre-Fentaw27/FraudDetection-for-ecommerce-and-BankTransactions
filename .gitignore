@@ -1,4 +1,13 @@
 # Python
 .venv/
 .pytest_cache/
+<<<<<<< HEAD
 __pycache__/
+=======
+__pycache__/
+#data
+data/*
+data/raw/*
+data/processed/*
+*.csv
+>>>>>>> task-1
